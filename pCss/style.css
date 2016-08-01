@@ -1,0 +1,472 @@
+*{
+	margin: 0px;
+}
+
+@media (min-width: 700px) { 
+
+.wrapper{
+	/*background-color: rgba(126,192,238,.8);*/
+	width:100%;
+	height: 100%;
+	min-height: 700px;
+
+	background-image: url(../img/background.jpg);
+	background-repeat: repeat-y;
+	 background-size: 100% 20%;
+}
+.nav{
+	width: 100%;
+	height: 70px;
+	top: 0px;
+	position: relative;
+	 background-color: rgba(0,0,0,1);
+	 z-index: 2;
+	
+}
+.nav li{
+	margin-top: 10px;
+}
+
+
+.link{
+	color:white;
+}
+
+
+/*=================slide show attr ========*/
+.content{
+	width:100%;
+	min-height: 400px;
+}
+
+
+
+.slideShow div{
+	display: inline-table;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#leftSlide{
+	float:left;
+	width:15.1%;
+	height:600px;
+	position: absolute;
+	top:100px;
+	z-index: 1;
+}
+
+#leftSlide:hover{
+	background-color: rgba(16, 46, 85,.1);
+}
+.imgShow{
+	width: 100px;
+	height: 100px;
+	display: inline-table;
+	display: none;
+}
+.display-img{
+	width:100%;
+	min-height: 700px;
+	z-index: 999;
+	top:3000px;
+	margin-left: 0px;
+	display: none;
+	position: absolute;
+	left:0px;
+	background-color: rgba(0,0,0,1);
+}
+#imgSlide{
+	float:center;
+	width:100%;
+	height:800px;
+	position: absolute;
+	top:50px;
+	z-index: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+#imgSlide img{
+	width: 60%;
+	height: 100%;
+	margin-left: 20%;
+	display:none;
+	position: absolute;
+
+}
+#rightSlide{
+	float:right;
+	width:15%;
+	height:600px;
+    top:100px;
+    position: absolute;
+    margin-left: 85%;
+	
+}
+#rightSlide:hover{
+	background-color: rgba(16, 46, 85,.1);
+	
+}
+#SlideIcon1{
+	font-size: 80px;
+	margin-left: 30%;
+	margin-top: 150%;
+	float: left;
+	color: rgba(0,0,0,0.8);
+}
+#SlideIcon2{
+	font-size: 80px;
+	margin-left: 25%;
+	margin-top: 150%;
+	color: rgba(0,0,0,0.8);
+}
+/*===============================================parallax_content=============================*/
+.parallax_content{
+	width:100%;
+	height: 100%;
+	margin-top: 900px;
+	
+}
+
+.adviceBlog{
+	width:100%;
+	height: 100%;
+	/*background-color: rgba(255,255,255,0.5);*/
+	 max-width: 1920px; 
+	 min-height: 1000px;
+
+	 
+}
+
+.VideosBlog{
+	margin: 0 auto;
+	width:80%;
+	height: 100%;
+	/*background-color: rgba(255,255,255,0.5);*/
+	 max-width: 80%; 
+	 min-height: 1000px;
+}
+
+.ContactForm{
+   width: 100%;
+   height: 100%;
+	/*background-color: rgba(0,0,0,0.7);*/
+}
+.container{
+	width: 80%;
+	/*background-color: rgba(255,255,255,.7);*/
+	background-color: rgba(255, 192, 234,0.5);
+}
+
+/*============================================ADVICE SECTION==============================*/
+
+.adviceB{
+	width:80%;
+	min-height: 600px;
+	margin: 0 auto;
+	top: 100px;
+}
+#advBlog{
+	margin-top:50px;
+}
+#advBlog li{
+	display: inline-table;
+}
+
+
+.adviceContent{
+	width:600px;
+    min-height: 600px;
+    overflow-y: scroll;
+    overflow-x: none;
+}
+.advicePhoto{
+	width:300px;
+	min-height: 400px;
+	position: absolute;
+}
+
+#AdviceBlog{
+    width:60%;
+	height:700px;
+	margin-left: 30%;
+	/*background-color: rgba(255,255,255,.6);*/
+	border-radius: 15px;
+	text-align: left;
+	
+}
+/*=========================comentarios de mis clientes==================*/
+.EventsBlog{
+	width:80%;
+	min-height: 600px;
+	background-color: rgba(0,0,0,0.5);
+	margin: 0 auto;
+}
+.footer{
+	width: 80%;
+	height: 70px;
+	margin: 0 auto;
+	position: relative;
+	 background-color: rgba(0,0,0,0.8);
+	 z-index: 2;
+	 font-size: 16px;
+	 padding-top: 15px;
+}
+/*================================================top form==========================*/
+.topForm{
+	width: 100%;
+	height: 100%;
+	background-color:rgba(1,1,1,0.7);
+	position: absolute;
+	top: 1000px;
+	margin: 0 auto;
+	z-index: 3;
+	display: none;
+
+}
+/*=================================================CONSEJOS ====================*/
+.consejosBox
+{
+	width: 90%;
+	height: 50px;
+	border-left:  8px dotted rgba(255,192,203,1);
+	text-align: center;
+	background-color: rgba(255,255,255,1);
+
+}
+
+/*=================================================user===========================*/
+#user{
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#logout{
+	display: none;
+}
+#logout:hover{
+	 background-color: rgba(255, 192, 234,0.5);
+}
+
+}/*end of media query */
+@media (max-width: 500px) { 
+	
+.wrapper{
+	/*background-color: rgba(126,192,238,.8);*/
+	width:100%;
+	height: 100%;
+	min-height: 700px;
+
+	
+}
+
+
+	#imgSlide{
+	float:center;
+	width:100%;
+	height:800px;
+	position: absolute;
+	top:50px;
+	z-index: 0;
+	background-color: rgba(0,0,0,0.7);
+}
+#imgSlide img{
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	margin-left: 0px;
+	display:none;
+	position: absolute;
+
+}
+.images-box{
+	width: 100%;
+	min-height: 400px;
+	float: center;
+	background-color: rgba(0,0,0,0.7);
+	border:2px dotted background-color: rgba(255, 192, 234,0.5);;
+}
+.imgShow{
+	width: 5px;
+	height: 50px;
+	display: inline-table;
+	
+}
+#img-commnets{
+	color:black;
+	overflow-y: scroll;
+	text-align: left;
+
+}
+
+.display-img{
+	width:100%;
+	min-height: 700px;
+	z-index: 999;
+	top:3000px;
+	margin-left: 0px;
+	display: none;
+	position: absolute;
+	left:0px;
+	background-color: rgba(0,0,0,1);
+}
+
+.slideShow div{
+	display: inline-table;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#leftSlide{
+	float:left;
+	width:15.1%;
+	height:600px;
+	position: absolute;
+	top:100px;
+	z-index: 1;
+}
+
+#leftSlide:hover{
+	background-color: rgba(16, 46, 85,.1);
+}
+
+#rightSlide{
+	float:right;
+	width:15%;
+	height:600px;
+    top:100px;
+    position: absolute;
+    margin-left: 75%;
+	
+}
+#rightSlide:hover{
+	background-color: rgba(16, 46, 85,.1);
+	
+}
+#SlideIcon1{
+	font-size: 80px;
+	margin-left: 0%;
+	margin-top: 150%;
+	float: left;
+	color: rgba(0,0,0,0.8);
+}
+#SlideIcon2{
+	font-size: 80px;
+	margin-left: 15%;
+	margin-top: 150%;
+	color: rgba(0,0,0,0.8);
+}
+
+.VideosBlog{
+	margin: 0 auto;
+	width:100%;
+	height: 100%;
+	/*background-color: rgba(255,255,255,0.5);*/
+	 max-width: 80%; 
+	 min-height: 1000px;
+}
+/*==================parallax ==================================*/
+
+/*Special thanks to Mohiuddin Parekh  for his blog post on parallax*/
+#Advice { 
+  background: url(../img/1.gif) 10% 0 no-repeat fixed; min-height: 1000px;
+  margin: 0 auto; 
+  min-height: 500px;
+  position: relative; 
+   background-color: rgba(0,0,0,0.6);
+}
+
+
+
+
+#Events { 
+  background:  url(../img/3.gif) 60% 0 no-repeat fixed; min-height: 1500px; 
+  background-repeat:  no-repeat;
+  margin: 0 auto; 
+  width: 100%; 
+  color:white;
+  min-height: 500px;
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+
+#feedBack{
+  background: url(../img/2.gif) 10% 0 no-repeat fixed; min-height: 1000px;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  min-height: 500px;
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);\
+}
+
+ 
+#Videos
+{
+  background: url(../img/2.gif) 50% 0 repeat fixed; min-height: 1000px; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  min-height: 500px;
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+/*#Videos article  { background: url(../img/1.gif) 50% 0 no-repeat scroll center top transparent;  position: absolute; text-indent: -9999px; top: 291px; width: 100%; }*/
+
+
+
+
+
+#ContactMe
+{
+  background: url(../img/1.gif) 60% 0 no-repeat fixed; min-height: 1000px; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  min-height: 500px;
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+   background-color: rgba(0,0,0,0.6);
+}
+
+.container{
+	width: 80%;
+	/*background-color: rgba(255,255,255,.7);*/
+	background-color: rgba(255, 192, 234,0.5);
+}
+/*#ContactMe  article { background: url("../img/2.gif") 50% 0 no-repeat scroll center top transparent;  position: absolute; text-indent: -9999px; top: 291px; width: 100%; }*/
+
+
+
+
+/*#ContactMe
+{
+  background: url(../img/title.jpg) 50% 0 repeat fixed; min-height: 1000px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}*/
+
+/*#contactMe  article{ background: url("../img/logo.png") no-repeat scroll center top transparent; height: 458px; position: absolute; color:white; text-indent: -9999px;top: 291px; width: 100%; }*/
+
+
+/*=====================end of parallax====================*/
+}

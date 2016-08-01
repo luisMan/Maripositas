@@ -1,0 +1,98 @@
+
+/*Special thanks to Mohiuddin Parekh  for his blog post on parallax*/
+#Advice { 
+  background: url(../img/1.gif) 10% 0 no-repeat fixed; min-height: 1000px;
+  margin: 0 auto; 
+  width: 100%; 
+  position: relative; 
+   background-color: rgba(0,0,0,0.6);
+}
+
+
+
+
+#Events { 
+  background:  url(../img/3.gif) 60% 0 no-repeat fixed; min-height: 1500px; 
+  background-repeat:  no-repeat;
+  margin: 0 auto; 
+  width: 100%; 
+  color:white;
+  height: 900px;
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+
+#feedBack{
+  background: url(../img/2.gif) 10% 0 no-repeat fixed; min-height: 1000px;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 900px;
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);\
+}
+
+ 
+#Videos
+{
+  background: url(../img/2.gif) 50% 0 repeat fixed; min-height: 1000px; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 900px;
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+/*#Videos article  { background: url(../img/1.gif) 50% 0 no-repeat scroll center top transparent;  position: absolute; text-indent: -9999px; top: 291px; width: 100%; }*/
+
+
+
+
+
+#ContactMe
+{
+  background: url(../img/1.gif) 60% 0 no-repeat fixed; min-height: 1000px; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 900px;
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+   background-color: rgba(0,0,0,0.6);
+}
+
+/*#ContactMe  article { background: url("../img/2.gif") 50% 0 no-repeat scroll center top transparent;  position: absolute; text-indent: -9999px; top: 291px; width: 100%; }*/
+
+
+
+
+/*#ContactMe
+{
+  background: url(../img/title.jpg) 50% 0 repeat fixed; min-height: 1000px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  margin: 0 auto; 
+  width: 100%; 
+  max-width: 1920px; 
+  position: relative; 
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}*/
+
+/*#contactMe  article{ background: url("../img/logo.png") no-repeat scroll center top transparent; height: 458px; position: absolute; color:white; text-indent: -9999px;top: 291px; width: 100%; }*/
+
+
